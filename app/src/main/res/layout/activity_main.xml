@@ -23,23 +23,25 @@
         android:gravity="center"
         android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/etCity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:ems="10"
-        android:hint="Enter City Name"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Enter City Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etCountry"
-        android:layout_marginBottom="10dp"
-        android:ems="10"
-        android:hint="Enter Country Code (Optional)"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Enter Country Code (Optional)"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
 
     <Button
         android:layout_width="match_parent"
